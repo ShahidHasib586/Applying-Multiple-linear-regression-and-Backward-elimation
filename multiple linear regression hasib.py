@@ -15,7 +15,6 @@ Y = dataset.iloc[:, 4 ].values
 #from sklearn.impute import SimpleImputer
 
 #imputer = SimpleImputer(missing_values=np.nan, strategy= 'mean')
-
 #imputer.fit(X[:, 1:3])
 ##print(X)
 #Encoding cetagoricl data
