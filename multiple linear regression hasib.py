@@ -12,7 +12,6 @@ X = dataset.iloc[:, :-1].values
 Y = dataset.iloc[:, 4 ].values
 
 #taking care of missing datasets
-
 #from sklearn.impute import SimpleImputer
 
 #imputer = SimpleImputer(missing_values=np.nan, strategy= 'mean')
