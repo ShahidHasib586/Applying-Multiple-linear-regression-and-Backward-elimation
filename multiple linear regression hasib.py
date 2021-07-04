@@ -20,9 +20,7 @@ Y = dataset.iloc[:, 4 ].values
 
 #imputer.fit(X[:, 1:3])
 ##print(X)
-
 #Encoding cetagoricl data
-
 #from sklearn.preprocessing import OneHotEncoder
 #from sklearn.compose import ColumnTransformer
 #from sklearn.preprocessing import LabelEncoder#, OneHotEncoder
@@ -75,7 +73,6 @@ import statsmodels.api as sm
 
 X = np.append(arr = np.ones((50, 1)).astype(int), values = X, axis =1)
 X_opt = X[:, [0, 1, 2, 3, 4, 5]]
-
 #regressor_OLS = sm.OLS(endog = Y, exog = X_opt).fit()
 
 X_opt = X_opt.astype(np.float64)
